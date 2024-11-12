@@ -98,35 +98,6 @@ export default function Sliding() {
                         </div>
                     </div>
               </SwiperSlide>
-             <SwiperSlide className={styles.swiperslide}>
-                <div className={styles.singleevent}>
-                    <div className={styles.eventimg}>
-                        <Image className={styles.sli} src={submit} alt='slide' />    
-                    </div>
-                    <div className={styles.eventtxt} id={styles.green}>
-                        <h3>
-                            Research Papers Submitted Fully
-                        </h3>
-                        <p>Our students have submitted groundbreaking research papers in various fields of study, contributing to the advancement of knowledge.</p>
-                        <div className={styles.eventfooter}>
-                            <a href='#'><FaArrowRight className={styles.gr} id={styles.arrow} /></a>
-                        </div>
-                    </div>              
-                </div>
-            </SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>
-            <div className={styles.singleevent}>
-                <div className={styles.eventimg}>
-                    <Image className={styles.sli} src={submit1} alt='slide' />
-                </div>
-                <div className={styles.eventtxt} id={styles.purple}>                            <h3>Language Proficiency Courses</h3>
-                    <p>Our language proficiency courses help students become fluent in multiple languages, opening up new opportunities for them.</p>
-                    <div className={styles.eventfooter}>
-                        <a href='#'><FaArrowRight className={styles.gr1} id={styles.arrow} /></a>
-                    </div>
-                </div>
-            </div>
-        </SwiperSlide>
       </Swiper>
     </>
   );

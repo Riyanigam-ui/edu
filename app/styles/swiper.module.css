@@ -1,0 +1,162 @@
+.singleevent{
+    margin: 0 12px;
+    background: #fff;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 25px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.singleevent:hover {
+    border-radius: 5px;
+    border: 1px solid #ff7f46;
+    -webkit-transform: scale(1.05);
+}
+
+.swiperslide{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.eventimg{
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sli{
+    width: 100%;
+    height: 100%;
+}
+
+.eventimg::after{
+    position: absolute;
+    content: "";
+    background: url('../assets/curve.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: -1px;
+    left: 1px;
+    z-index: 1;
+    width: 99.7%;
+    height: 10px;
+}
+
+.eventcategory1{
+    background: #4582ff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+}
+
+.eventcategory1:hover, .eventcategory2:hover{
+    background: #0f2239;
+    color: #fff;
+}
+
+.eventcategory2{
+    background: #ff7f46;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+}
+
+.eventtxt{
+    padding: 15px 30px 20px;
+    overflow: hidden;
+    border-top: 0;
+    transition: all .3s linear;
+}
+
+.eventtxt ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.eventtxt ul li a{
+    text-decoration: none;
+    color: #636363;
+}
+
+.eventtxt ul li{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: -30px;
+}
+
+.eventtxt .pin{
+    color: #4582ff;
+    margin-right: 5px;
+}
+
+.eventtxt p{
+    color: #636363;
+}
+
+.gour{
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    color: #0f2239;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    transition: all .3s linear;
+    text-decoration: none;
+}
+
+.gour:hover{
+    color: #ff7f46;
+}
+
+.eventfooter{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.eventfooter span{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+    color: #636363;
+}
+
+.eventfooter::after{
+    position: absolute;
+    content: "";
+    width: 127%;
+    height: 1px;
+    background: #ddd;
+    top: 0;
+    left: -48px;
+    transition: all .3s linear;
+}
+
+.eventfooter::after:hover{
+    color: #ff7f46;
+}

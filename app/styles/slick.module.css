@@ -1,0 +1,82 @@
+.swiperslide{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.singletest{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    /* margin-left: 17px; */
+    margin-right: 14px;
+    padding-top: 40px;
+    padding-bottom: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px dashed #fff;
+    border-radius: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.testimg11 .image{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 27px 0 15px;
+}
+
+.icon{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 35px;
+    color: #ff7f46;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.sigletest p{
+    margin-top: 30px;
+    font-size: 16px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.singletest h3{
+    font-size: 17px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    margin-bottom: 0;
+}
+
+.rating{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0 16px;
+}
+
+.rating a{
+    text-decoration: none;
+}
+
+.ci .st1{
+    color: #ff7f46;
+}
+
+.ci .st2{
+    color: #fff;
+}
+
+.icon:hover{
+    background: #ff7f46;
+    color: #fff;
+}

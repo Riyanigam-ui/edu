@@ -1,0 +1,129 @@
+.singleevent{
+    margin: 25px 12px 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.singleevent:hover{
+    -webkit-transform: scale(1.05);
+    border-radius: 5px;
+    border: 1px solid #ff7f46;
+}
+
+.aa{
+    display: block;
+    height: 250px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.eventtxt{
+    padding: 30px 25px 25px;
+}
+
+.eventcategory1{
+    text-decoration: none;
+    background: #8e56ff;
+    padding: 6px 26px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.eventcategory1:hover, .eventcategory2:hover, .eventcategory3:hover{
+    background: #0f2239;
+    color: #fff;
+}
+
+.title{
+    text-decoration: none;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 22px;
+    font-weight: 700;
+    color: #0f2239;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    -webkit-transition: all .3s linear;
+}
+
+.eventtxt p{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.rm{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #636363;
+    transition: all .3s linear;
+}
+
+.eventcategory2{
+    text-decoration: none;
+    background: #ff7f46;
+    padding: 6px 26px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.eventcategory3{
+    text-decoration: none;
+    background: #1ab69d;
+    padding: 6px 26px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.sli1{
+    width: 480px;
+    height: 100%;
+}
+
+.title:hover, .rm:hover{
+    color: #ff7f46;
+}
+
+.swiperslide{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.chev{
+    background-color: #ff7f46;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-top: -3px;
+    padding: 1px;
+}

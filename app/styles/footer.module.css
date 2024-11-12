@@ -1,0 +1,269 @@
+.minc{
+    margin-top: 1%;
+}
+
+.tf{
+    /* margin-top: 100px; */
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-image: url('../assets/footer_bg.b1741027.jpg');
+}
+
+.footeroverlay{
+    padding-top: 75px;
+    background-color: #191e24f5;
+}
+
+.links, .contacts, .news{
+    margin-top: 15px;
+}
+
+.lone .dark{
+    max-width: 180px;
+}
+
+.lone p{
+    color: #fff;
+    margin: 22px 0 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.lone ul{
+    display: flex;
+    flex-wrap: wrap !important;
+    margin-left: -30px;
+}
+
+.lone ul li{
+    list-style: none;
+}
+
+.lone ul li{
+    width: 40px;
+    height: 40px;
+    /* padding: 10px; */
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.lone ul li a{
+        color: #fff;
+}
+
+.soc{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.lone ul li:hover{
+    background-color: #ff7f46;
+    border-color: #ff7f46;
+    transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+}
+
+.links h3, .contacts h3, .news h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.links ul li{
+    list-style: none;
+}
+
+.links ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    /* padding-left: -40px; */
+    margin-bottom: 15px;
+    position: relative;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.links ul li a:hover{
+    padding-left: 20px;
+    color: #ff7f46;
+}
+
+.contacts p, .footercontent p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.contacts span{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.contacts span a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.contacts span a:hover{
+    color: #ff7f46;
+}
+
+.footercontent form{
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.footercontent form input{
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    line-height: inherit;
+    -webkit-border-radius: 3px;
+}
+
+.footercontent form button{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    background: #ff7f46;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 9px 26px;
+    border-radius: 30px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.footercontent form button:hover{
+    background-color: #0f2239;
+    color: #ddd;
+}
+
+.copy{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #dddddd5e;
+    padding: 25px 0;
+    margin-top: 30px;
+}
+
+.copy p{
+    color: #ddd;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.copy ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 5px 0; */
+    margin-top: 15px;
+}
+
+.copy ul li{
+    list-style: none;
+    /* margin-top: 5px; */
+}
+
+.copy ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 15px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    color: #ddd;
+}
+
+.scrollbtn{
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    z-index: 111;
+    cursor: pointer;
+    text-align: center;
+    background: #ff7f46;
+    color: #fff;
+    padding: 5px 15px 7px;
+    border-radius: 30px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    animation: animi 2s linear infinite alternate;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+@keyframes animi{
+    0%{
+        bottom: 100px;
+    }
+    100%{
+        bottom: 120px;
+    }
+}
+
+.scrollbtn:hover{
+    background: #0f2239;
+    color: #fff;
+}
+
+@media only screen and (min-width: 768px){
+    .foot1{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .fott{
+        max-width: 960px;
+    }
+    .foot1{
+        display: flex;
+    }
+    .link1 p{
+       max-width: 100%;
+       font-size: 14px;
+    }
+    .links h3, .news h3{
+        margin-left: 30px;
+    }
+    .news p{
+        margin-left: 30px;
+    }
+    .form{
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .fott{
+        max-width: 1320px;
+    }
+    .rows{
+        display: flex;
+    }
+}

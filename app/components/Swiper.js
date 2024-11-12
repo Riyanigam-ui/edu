@@ -120,46 +120,6 @@ export default function Sliding() {
                         </div>
                     </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>
-                    <div className={styles.singleevent}>
-                        <div className={styles.eventimg}>
-                            <Image className={styles.sli} src={slide1} alt='slide' />
-                            <a href='#' className={styles.eventcategory1}>food</a>
-                        </div>
-                        <div className={styles.eventtxt}>
-                            <ul>
-                                <li><a href='#'><FiMapPin className={styles.pin} />Paris, France</a></li>
-                                <li><a href='#'><FaRegClock className={styles.pin} />06.00pm - 09.00pm</a></li>
-                            </ul>
-                            <a href='#' className={styles.gour}>Gourmet Music Concert</a>
-                            <p>Calling all food lovers! Join us for a culinary adventure at the Paris Gourmet Food Festival. Sample a diverse range of gourmet dishes from around the world and satisfy your taste buds!</p>
-                            <div className={styles.eventfooter}>
-                                <span>Gourmet Food Festival</span>
-                                <span>$45.00</span>
-                            </div>
-                        </div>
-                    </div>
-        </SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>
-                    <div className={styles.singleevent}>
-                        <div className={styles.eventimg}>
-                            <Image className={styles.sli} src={slide2} alt='slide' />
-                            <a href='#' className={styles.eventcategory2}>music</a>
-                        </div>
-                        <div className={styles.eventtxt}>
-                            <ul>
-                                <li><a href='#'><FiMapPin className={styles.pin} />Nashville, USA</a></li>
-                                <li><a href='#'><FaRegClock className={styles.pin} />08.00pm - 11.00pm</a></li>
-                            </ul>
-                            <a href='#' className={styles.gour}>Country Music Festival</a>
-                            <p>Get ready for a boot-stompin' good time at the Country Music Festival in Nashville. Experience live performances of your favorite country hits and enjoy the vibrant atmosphere.</p>
-                            <div className={styles.eventfooter}>
-                                <span>Country Music Festival</span>
-                                <span>$65.00</span>
-                            </div>
-                        </div>
-                    </div>
-        </SwiperSlide>
       </Swiper>
     </>
   );

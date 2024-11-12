@@ -29,10 +29,12 @@ export default function Sliding() {
       <Swiper
         slidesPerView={3}
         spaceBetween={30}
+        autoplay= {{ delay: 1000, disableOnInteraction: false}}
+        loop= {true}
+        speed= {5000}
         navigation={false}
         pagination={{
           clickable: true,
-          autoplay: { delay: 1000 },
           className: "pagination",
         }}
         modules={[Pagination, Navigation, Autoplay]}

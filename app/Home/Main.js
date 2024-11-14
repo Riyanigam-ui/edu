@@ -188,7 +188,7 @@ export default function Main() {
         </section>
         <section className={styles.faq}>
            <Container className={styles.faq1}>
-             <Row>
+             <Row className={styles.accrows}>
                <Col className={styles.faqq}>
                  <div className={styles.faqimage}>
                    <Image src={faqimg} className={styles.imgg} alt="image" />
@@ -270,12 +270,12 @@ export default function Main() {
         </section>
 
         <section className={styles.testimonial}>
-           <Container>
+           <Container className={styles.testi}>
              <Row>
                <Col>
                   <div className={styles.testhead}>
                     <h5>Our Testimonials</h5>
-                    <h2>Voices of Success: Our Community's<br/> Testimonials</h2>
+                    <h2>Voices of Success: Our Community's Testimonials</h2>
                   </div>
                </Col>
              </Row>

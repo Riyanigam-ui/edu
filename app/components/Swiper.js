@@ -61,12 +61,12 @@ export default function Sliding() {
                     </div>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperslide}>
-                    <div className={styles.singleevent}>
-                        <div className={styles.eventimg}>
-                            <Image className={styles.sli} src={slide2} alt='slide' />
-                            <a href='#' className={styles.eventcategory2}>music</a>
-                        </div>
-                        <div className={styles.eventtxt}>
+            <div className={styles.singleevent}>
+                <div className={styles.eventimg}>
+                    <Image className={styles.sli} src={slide2} alt='slide' />
+                    <a href='#' className={styles.eventcategory2}>music</a>
+                </div>
+                <div className={styles.eventtxt}>
                             <ul>
                                 <li><a href='#'><FiMapPin className={styles.pin} />Nashville, USA</a></li>
                                 <li><a href='#'><FaRegClock className={styles.pin} />08.00pm - 11.00pm</a></li>
@@ -78,47 +78,47 @@ export default function Sliding() {
                                 <span>$65.00</span>
                             </div>
                         </div>
-                    </div>
+            </div>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperslide}>
-                    <div className={styles.singleevent}>
-                        <div className={styles.eventimg}>
-                            <Image className={styles.sli} src={slide3} alt='slide' />
-                            <a href='#' className={styles.eventcategory2}>music</a>
-                        </div>
-                        <div className={styles.eventtxt}>
-                            <ul>
-                                <li><a href='#'><FiMapPin className={styles.pin} />New York, USA</a></li>
-                                <li><a href='#'><FaRegClock className={styles.pin} />07.30pm - 11.00pm</a></li>
-                            </ul>
-                            <a href='#' className={styles.gour}>Live Music Concert</a>
-                            <p>Experience the magic of live music in the heart of New York City. This concert features some of the most talented musicians performing your favorite songs. Get ready for a night to remember!</p>
-                            <div className={styles.eventfooter}>
-                                <span>Live Music Concert</span>
-                                <span>$60.00</span>
-                            </div>
-                        </div>
+            <div className={styles.singleevent}>
+                <div className={styles.eventimg}>
+                    <Image className={styles.sli} src={slide3} alt='slide' />
+                    <a href='#' className={styles.eventcategory2}>music</a>
+                </div>
+                <div className={styles.eventtxt}>
+                    <ul>
+                        <li><a href='#'><FiMapPin className={styles.pin} />New York, USA</a></li>
+                        <li><a href='#'><FaRegClock className={styles.pin} />07.30pm - 11.00pm</a></li>
+                    </ul>
+                    <a href='#' className={styles.gour}>Live Music Concert</a>
+                    <p>Experience the magic of live music in the heart of New York City. This concert features some of the most talented musicians performing your favorite songs. Get ready for a night to remember!</p>
+                    <div className={styles.eventfooter}>
+                        <span>Live Music Concert</span>
+                        <span>$60.00</span>
                     </div>
+                </div>
+            </div>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperslide}>
-                    <div className={styles.singleevent}>
-                        <div className={styles.eventimg}>
-                            <Image className={styles.sli} src={slide4} alt='slide' />
-                            <a href='#' className={styles.eventcategory1}>school</a>
-                        </div>
-                        <div className={styles.eventtxt}>
-                            <ul>
-                                <li><a href='#'><FiMapPin className={styles.pin} />Dhaka, Bangladesh</a></li>
-                                <li><a href='#'><FaRegClock className={styles.pin} />08.00pm - 10.00pm</a></li>
-                            </ul>
-                            <a href='#' className={styles.gour}>Outdoor This Games</a>
-                            <p>Join us for a day of exciting outdoor activities and games in the beautiful Dhaka, Bangladesh. Whether you're a student or just looking for some outdoor fun, this event is perfect for you.</p>
-                            <div className={styles.eventfooter}>
-                                <span>Outdoor This Games</span>
-                                <span>$50.00</span>
-                            </div>
-                        </div>
+            <div className={styles.singleevent}>
+                <div className={styles.eventimg}>
+                    <Image className={styles.sli} src={slide4} alt='slide' />
+                    <a href='#' className={styles.eventcategory1}>school</a>
+                </div>
+                <div className={styles.eventtxt}>
+                    <ul>
+                        <li><a href='#'><FiMapPin className={styles.pin} />Dhaka, Bangladesh</a></li>
+                        <li><a href='#'><FaRegClock className={styles.pin} />08.00pm - 10.00pm</a></li>
+                    </ul>
+                    <a href='#' className={styles.gour}>Outdoor This Games</a>
+                    <p>Join us for a day of exciting outdoor activities and games in the beautiful Dhaka, Bangladesh. Whether you're a student or just looking for some outdoor fun, this event is perfect for you.</p>
+                    <div className={styles.eventfooter}>
+                        <span>Outdoor This Games</span>
+                        <span>$50.00</span>
                     </div>
+                </div>
+            </div>
         </SwiperSlide>
       </Swiper>
     </>

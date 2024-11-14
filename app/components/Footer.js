@@ -43,7 +43,7 @@ export default function Footer() {
                     </ul>
                  </Col>
                  </Row>
-                 <Row>
+                 <Row className={styles.foot2}>
                  <Col className={styles.contacts}>
                  <h3>Our Contacts</h3>
                         <p>27 Division St, Berakuti, NY 121102, USA</p>
@@ -93,7 +93,7 @@ export default function Footer() {
      </footer>
       <div className={styles.scroll}>
          <div className={styles.scrollbtn} role='button'>
-            GO TO TOP
+            <a href='#'>GO TO TOP</a>
          </div>
       </div>
       <div className={styles.toastify}></div>

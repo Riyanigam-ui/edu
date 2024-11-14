@@ -30,7 +30,7 @@ export default function LastCarousel() {
         spaceBetween={30}
         autoplay= {{ delay: 1000, disableOnInteraction: false}}
         loop= {true}
-        speed= {5000}
+        speed= {2000}
         pagination={{
           clickable: true,
           className: "pagination",

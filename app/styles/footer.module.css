@@ -226,9 +226,47 @@
     }
 }
 
+.scrollbtn a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .scrollbtn:hover{
     background: #0f2239;
     color: #fff;
+}
+
+@media only screen and (min-width: 360px){
+    .fott{
+        padding: 0 20px;
+    }
+    .lone{
+        margin-bottom: 25px;
+    }
+    .dark{
+        max-width: 160px;
+    }
+    .rows .foot1, .rows .foot2{
+        display: block;
+    }
+    .contacts h3, .links h3, .footercontent h3{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .copy p{
+        margin-bottom: 10px;
+    }
+    .links{
+        margin-top: 10%;
+    }
+    .copy ul li a{
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .scrollbtn{
+        right: -20px;
+        font-size: 13px;
+    }
 }
 
 @media only screen and (min-width: 768px){

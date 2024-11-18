@@ -31,12 +31,11 @@ export default function Sliding() {
         spaceBetween={30}
         autoplay= {{ delay: 1000, disableOnInteraction: false}}
         loop= {true}
-        speed= {5000}
+        speed= {1000}
         navigation={false}
-        pagination={{
-          clickable: true,
-          className: "pagination",
-        }}
+        // pagination={{
+        //   className: "pagination",
+        // }}
         modules={[Pagination, Navigation, Autoplay]}
         className={styles.swiper}
       >

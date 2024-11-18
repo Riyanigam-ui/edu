@@ -270,8 +270,8 @@
 }
 
 @media only screen and (min-width: 768px){
-    .foot1{
-        display: block;
+    .rows{
+        display: flex;
     }
 }
 

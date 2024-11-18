@@ -1442,23 +1442,301 @@
 @media only screen and (min-width: 360px){
     .bluecontent1, .bluecontent2, .bluecontent3, .bluecontent4, .bluecontent5, .bluecontent6{
         max-width: 85%;
+        padding: 20px;
     }
     .sl1{
-        width: 919px;
+        width: 1250px;
     }
     .paper{
-        width: 970px;
+        width: 1100px;
     }
     .testrow{
-        width: 734px;
-        padding-bottom: 35%;
+        width: 850px;
+        padding-bottom: 20%;
     }
     .last{
-        width: 1100px;
+        width: 1200px;
+    }
+    .conti{
+        padding: 0 20px;
+    }
+    .course h5, .abtt h5, .eventh h5, .heading h5,
+     .achead h2, .noww h5, .testhead h5, .actii h5, .now h5{
+        font-size: 15px;
+    }
+    .course h2, .abtt h2, .eventh h2, .heading h2,
+     .noww h2, .testhead h2, .actii h2, .now h2{
+        font-size: 30px;
+    }
+    .icon1, .icon2, .icon3, .icon4, .icon5, .icon6{
+        width: 65px;
+        height: 66px;
+        line-height: 25px;
+        font-size: 25px;
+    }
+    .book, .faq1, .car, .testi, .active, .conn3{
+        padding: 0 20px;
+    }
+    .testimonial{
+        margin-top: -40px;
+    }
+    .childd{
+        top: -95px;
+        padding: 20px;
+    }
+    .book::after, .school::before{
+        display: none;
+    }
+    .abtop{
+        height: 200px;
+    }
+    .toptext{
+        max-width: 100%;
+        padding-right: 0;
+        margin-top: 20px;
+    }
+    .toptext h4{
+        font-size: 20px;
+    }
+    .toptext p{
+        margin-bottom: 20px;
+    }
+    .sch::after{
+        top: -239px;
+        left: -85px;
+        -webkit-transform: rotate(45deg);
+    }
+    .read1, .abbmore, .commonbtn{
+        font-size: 14px !important;
+    }
+    .abbtext p, .actiicon p{
+        max-width: 100%;
+    }
+    .abttt li a{
+        font-size: 15px;
+    }
+    .abttt li::after{
+        margin-left: -7%;
+    }
+    .abbb{
+        width: 281px;
+        height: 315px;
+        margin-top: 25px;
+    }
+    .abbimage::after, .abbimage::before{
+        display: none;
+    }
+    .counterbox{
+        bottom: 19%;
+        right: 60px;
+    }
+    .conn2{
+        padding: 0 20px;
+        margin-top: -100%;
+    }
+    .faq::after, .faq::before{
+        display: none;
+    }
+    .faqimage{
+        width: 60%;
+        height: 280px;
+    }
+    .faqimage .imgg{
+        width: 200px;
+        height: 300px;
+        margin-left: auto;
+    }
+    .faqimage::after{
+        top: -120px;
+        left: 0;
+    }
+    .faqq1{
+        margin-top: 20px;
+    }
+    .faqtext{
+        margin-top: 10px;
+        padding-bottom: 5px;
+    }
+    .faqtext p, .acbody p{
+        max-width: 100%;
+    }
+    .greenn span, .bluee span, .purple span{
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 30px;
+    }
+    .greenn h3, .purple h3, .bluee h3{
+        font-size: 20px;
+    }
+    .activimg{
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .activimg .study{
+        width: 341px;
+        height: 341px;
+    }
+    .videotxt h4{
+        font-size: 25px;
+    }
+    .videotxt p{
+        max-width: 100%;
     }
 }
 
-@media only screen and (min-width: 575px){
+ @media only screen and (min-width: 420px){
+    .bluecontent1, .bluecontent2, .bluecontent3, .bluecontent4, .bluecontent5, .bluecontent6{
+        max-width: 85%;
+    }
+    .sl1{
+        width: 1250px;
+    }
+    .paper{
+        width: 1100px;
+    }
+    .testrow{
+        width: 850px;
+        padding-bottom: 20%;
+    }
+    .last{
+        width: 1200px;
+    }
+    .conti{
+        padding: 0 20px;
+    }
+    .course h5, .abtt h5, .eventh h5, .heading h5,
+     .achead h2, .noww h5, .testhead h5, .actii h5, .now h5{
+        font-size: 15px;
+    }
+    .course h2, .abtt h2, .eventh h2, .heading h2,
+     .noww h2, .testhead h2, .actii h2, .now h2{
+        font-size: 30px;
+    }
+    .icon1, .icon2, .icon3, .icon4, .icon5, .icon6{
+        width: 65px;
+        height: 66px;
+        line-height: 25px;
+        font-size: 25px;
+    }
+    .bluecontent1, .bluecontent2, .bluecontent3, .bluecontent4, .bluecontent5, .bluecontent6{
+        padding: 20px;
+    }
+    .book, .faq1, .car, .testi, .active, .conn3{
+        padding: 0 20px;
+    }
+    .testimonial{
+        margin-top: -40px;
+    }
+    .childd{
+        top: -95px;
+        padding: 20px;
+    }
+    .book::after, .school::before{
+        display: none;
+    }
+    .abtop{
+        height: 200px;
+    }
+    .toptext{
+        max-width: 100%;
+        padding-right: 0;
+        margin-top: 20px;
+    }
+    .toptext h4{
+        font-size: 20px;
+    }
+    .toptext p{
+        margin-bottom: 20px;
+    }
+    .sch::after{
+        top: -239px;
+        left: -85px;
+        -webkit-transform: rotate(45deg);
+    }
+    .read1, .abbmore, .commonbtn{
+        font-size: 14px !important;
+    }
+    .abbtext p, .actiicon p{
+        max-width: 100%;
+    }
+    .abttt li a{
+        font-size: 15px;
+    }
+    .abttt li::after{
+        margin-left: -7%;
+    }
+    .abbb{
+        width: 281px;
+        height: 315px;
+        margin-top: 25px;
+    }
+    .abbimage::after, .abbimage::before{
+        display: none;
+    }
+    .counterbox{
+        bottom: 19%;
+        right: 60px;
+    }
+    .conn2{
+        padding: 0 20px;
+        margin-top: -100%;
+    }
+    .faq::after, .faq::before{
+        display: none;
+    }
+    .faqimage{
+        width: 60%;
+        height: 280px;
+    }
+    .faqimage .imgg{
+        width: 200px;
+        height: 300px;
+        margin-left: auto;
+    }
+    .faqimage::after{
+        top: -120px;
+        left: 0;
+    }
+    .faqq1{
+        margin-top: 20px;
+    }
+    .faqtext{
+        margin-top: 10px;
+        padding-bottom: 5px;
+    }
+    .faqtext p, .acbody p{
+        max-width: 100%;
+    }
+    .greenn span, .bluee span, .purple span{
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 30px;
+    }
+    .greenn h3, .purple h3, .bluee h3{
+        font-size: 20px;
+    }
+    .activimg{
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .activimg .study{
+        width: 341px;
+        height: 341px;
+    }
+    .videotxt h4{
+        font-size: 25px;
+    }
+    .videotxt p{
+        max-width: 100%;
+    }
+}
+ @media only screen and (min-width: 575px){
     .conti{
         padding: 0 20px;
     }
@@ -1592,9 +1870,13 @@
     }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px){
-.conti, .testi, .active{
+@media only screen and (min-width: 576px){
+.conti, .active{
     max-width: 540px;
+}
+.testi{
+    max-width: 626px;
+    /* padding: 20px; */
 }
 .course h2, .eventh h2, .heading h2,
  .noww h2, .testhead h2, .actii h2, .videotxt h3{
@@ -1623,11 +1905,12 @@
     max-width: 540px;
 }
 .testrow{
-    width: 1100px;
+    width: 1239px;
     padding-bottom: 66px;
 }
 .abbtext{
-    width: 540px;
+    width: 600px;
+    /* height: 600px; */
  /* margin-top: -30px; */
 }
 .abbtext p{
@@ -1637,7 +1920,7 @@
     margin-left: -1%;
 }
 .abbimag{
-    /* width: 400px; */
+    width: 414px;
     height: 400px;
     margin-top: 25px;
     /* margin-bottom: 25%; */
@@ -1649,11 +1932,11 @@
     font-size: 14px !important;
 }
 .conn2{
-    margin-top: -17%;
+    margin-top: -30%;
 }
 .counterbox{
-    bottom: 4%;
-    right: 30%;
+    bottom: 21%;
+    right: 34%;
 }
 .sl1, .paper{
     width: 1568px;
@@ -1704,8 +1987,188 @@
 }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px){
-    .course{
+@media only screen and (min-width: 768px){
+    .conti, .book, .conn2, .faq1, .car, .active, .testi,.conn3, .blogs{
+        max-width: 720px;
+    }
+    .sl1, .last{
+        width: 2000px;
+        /* height: 100%; */
+    }
+    .paper{
+        width: 2000px;
+    }
+    .testhead{
+        margin-left: 30px;
+    }
+    .testrow{
+       width: 1480px;
+    }
+    .students .conn1{
+        margin-left: -10px;
+    }
+    .blue{
+        width: 800px;
+    }
+    .sch{
+        display: block;
+    }
+    .abb{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    .toptext{
+        margin-top: 11%;
+        padding-bottom: 20px;
+        padding-left: 8px;
+    }
+    .read1{
+        margin-left: 8px;
+    }
+    .abbimage{
+        margin-top: 8%;
+        width: 450px;
+        height: 550px;
+    }
+    .abbimage .abbb{
+        width: 100%;
+        height: 100%;
+    }
+    .counterbox{
+        right: 45%;
+        bottom: 1%;
+    }
+    .abbimage::after, .abbimage::before{
+        display: block;
+    }
+    .abbimage::after{
+        left: 80%;
+        top: -14px;
+    }
+    .abbimage::before{
+        bottom: 15%;
+        left: -34px;
+    }
+    .abbtext{
+        margin-left: 2%;
+    }
+    .conn2{
+        margin-top: 5%;
+    }
+    .accrows{
+        display: block;
+    }
+    .faqimage{
+        width: 550px;
+        height: 550px;
+    }
+    .faqimage .imgg{
+        width: 100%;
+        height: 100%;
+    }
+    .faqtext{
+        margin-top: 5%;
+    }
+    .acti{
+        width: 800px;
+    }
+    .analy span{
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 30px;
+    }
+    .activimg{
+        width: 550px;
+        /* height: 550px; */
+    }
+    .study{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .conti, .book, .conn2, .faq1, .car, .active, .testi,.conn3, .blogs{
+        max-width: 960px;
+    }
+    .sl1, .last{
+        width: 1500px;
+        /* height: 100%; */
+    }
+    .paper{
+        width: 2000px;
+    }
+    .testhead{
+        margin-left: 30px;
+    }
+    .testrow{
+       width: 1480px;
+    }
+    .divis{
+        display: flex;
+    }
+    .blue{
+        width: 500px;
+    }
+    .sch{
+        display: flex;
+    }
+    .abtop{
+        width: 411px;
+        /* height: 300px; */
+        padding-bottom: 5px;
+    }
+    .abb{
+        width: 100%;
+        height: 100%;
+        /* margin-bottom: 30px; */
+    }
+    .toptext{
+        margin-top: 11%;
+        padding-bottom: 20px;
+        padding-left: 8px;
+    }
+    .read1{
+        margin-left: 8px;
+    }
+    .abbimage{
+        /* margin-top: 8%; */
+        width: 450px;
+        height: 550px;
+        margin-bottom: 20px;
+    }
+    .abbimage .abbb{
+        width: 100%;
+        height: 100%;
+    }
+    .counterbox{
+        right: 45%;
+        bottom: 1%;
+    }
+    .abbimage::after, .abbimage::before{
+        display: block;
+    }
+    .abbimage::after{
+        left: 80%;
+        top: -14px;
+    }
+    .abbimage::before{
+        bottom: 15%;
+        left: -34px;
+    }
+    .abbtext{
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+  
+}
+
+
+/*768px  .course{
         flex: 30% 0 auto;
         width: 66.66666667%;
     }
@@ -1713,7 +2176,7 @@
         flex: 30% 0 auto;
         /* margin-left: 40px;
         width: 60%; */
-        flex-direction: column;
+       /* flex-direction: column;
     }
     .school{
         margin-top: 195px !important;
@@ -1854,10 +2317,35 @@
         width: 100%;
         padding-bottom: 0;
     }
-}
+    .conn1{
+        width: 720px;
+    }
+    .bluecontent1, .bluecontent2, .bluecontent3, .bluecontent4, .bluecontent5, .bluecontent6{
+        padding: 20px;
+    }
+    .bluecontent1 h3, .bluecontent2 h3, .bluecontent3 h3, .bluecontent4 h3, .bluecontent5 h3, .bluecontent6 h3{
+        font-size: 20px;
+        padding-left: 23px;
+    }
+    .bluecontent1 p, .bluecontent2 p, .bluecontent3 p, .bluecontent4 p, .bluecontent5 p, .bluecontent6 p{
+        padding-left: 32px;
+    }
+    .icon1, .icon2, .icon3, .icon4, .icon5, .icon6{
+        width: 80px;
+        height: 80px;
+        line-height: 30px;
+        font-size: 30px;
+    }*/
 
-@media only screen and (min-width: 992px){
-    .conti, .faq1{
+
+
+
+
+
+
+
+
+    /* 992px  .conti, .faq1{
         max-width: 960px;
     }
     .testrow{
@@ -1961,7 +2449,7 @@
     }
     .analy{
         /* flex: 0 0 auto; */
-        width: 50%;
+       /* width: 50%;
     }
     .greenn span, .bluee span, .purple span{
         width: 70px;
@@ -1975,11 +2463,10 @@
     .study{
         width: 60%;
         height: 90%;
-    }
-}
+    } */
 
-@media only screen and (min-width: 1200px){
-    .active, .faq1, .car, .book, .conti{
+
+    /* 1200px  .active, .faq1, .car, .book, .conti{
         max-width: 1320px;
     }
     .study{
@@ -2023,5 +2510,4 @@
     }
     .read1{
         margin-left: 30px;
-    }
-}
+    } */

@@ -39,7 +39,8 @@ export default function Main() {
                  <h2>Creative Categories for Students.</h2>     
                </Col>
              </Row>
-             <Row className={styles.students}>
+              <div className={styles.divis}>
+              <Row className={styles.students}>
                <Col className={styles.conn1}>
                  <div className={styles.blue}>
                    <div className={styles.icon1}>
@@ -109,6 +110,7 @@ export default function Main() {
                  </div>                 
                </Col>
              </Row>
+              </div>
            </Container>
            </div>
         </section>
@@ -347,7 +349,7 @@ export default function Main() {
         </section>
 
         <section className={styles.blogging}>
-          <Container>
+          <Container className={styles.blogs}>
                 <Row>
                   <Col className={styles.now}>
                     <h5>LATEST NEWS AND BLOGS</h5>

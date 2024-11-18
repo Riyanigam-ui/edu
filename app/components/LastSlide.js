@@ -31,10 +31,10 @@ export default function LastCarousel() {
         autoplay= {{ delay: 1000, disableOnInteraction: false}}
         loop= {true}
         speed= {2000}
-        pagination={{
-          clickable: true,
-          className: "pagination",
-        }}
+        // pagination={{
+        //   clickable: true,
+        //   className: "pagination",
+        // }}
         modules={[Pagination, Autoplay]}
         className="mySwiper"
       >

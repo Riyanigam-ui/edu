@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     color: #fff;
+    max-width: 100%;
 }
 
 .singletest{
@@ -79,4 +80,10 @@
 .icon:hover{
     background: #ff7f46;
     color: #fff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .singletest p{
+        padding-top: 30px;
+    }
 }

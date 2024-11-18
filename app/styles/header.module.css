@@ -242,14 +242,38 @@
 }
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (min-width: 360px){
     .bann{
-        padding: 30px 0 90px;
+        padding: 150px 0 50px;
+        max-width: 420px;
+    }
+    .textt h1, .textt h1 span{
+        font-size: 30px;
     }
     .textt p{
         font-size: 15px;
     }
 }
+
+@media only screen and (min-width: 420px){
+    #menufix{
+        height: 60px;
+        background: #fff;
+    }
+    .bann{
+        /* height: auto; */
+        max-width: 800px;
+        padding: 150px 0 0;
+        background-position: 0 !important;
+    }
+    .textt h1, .textt h1 span{
+        font-size: 30px;
+    }
+    .textt p{
+        font-size: 15px;
+    }
+}
+
 
 @media only screen and (max-width: 575px) {
     #menufix{
@@ -263,6 +287,7 @@
         /* height: auto; */
         background-position: 0 !important;
         height: 750px;
+        width: 568px;
     }
     .bann::before, .bann::after{
         display: none;
@@ -275,29 +300,30 @@
         font-size: 15px;
     }
     .textt h1{
-        font-size: 50px;
+        font-size: 30px;
     }
     .textt h1 span{
-        font-size: 40px;
+        font-size: 30px;
     }
     .textt p{
         font-size: 16px;
-        max-width: 100%;
+        max-width: 95%;
     }
 }
 
-@media only screen and (min-width: 576px){
+@media only screen and (min-width: 576px) and (max-width: 767px){
     #menufix{
         height: 70px;
         background: #fff;
     }
     .container{
-        max-width: 540px;
+        max-width: 720px;
     }
     .bann{
-        height: auto;
+        /* height: auto; */
         padding: 170px 0 100px;
         background-position: 0 !important;
+        max-width: 800px;
     }
     .bann::before{
         display: none;
@@ -306,11 +332,15 @@
         display: none;
     }
     .textt{
+        /* width: 50%; */
         padding-top: 0;
         padding-bottom: 0;
     }
-    .textt h1{
+    .textt h1, .textt h1 span{
         font-size: 50px;
+    }
+    .textt h1 span{
+        margin-top: 40px;
     }
     .textt p{
         font-size: 16px;
@@ -324,26 +354,58 @@
     }
 }
 
-@media only screen and (max-width: 768px){
-    .container{
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .conn, .container{
         max-width: 720px;
     }
-}
-
-@media only screen and (min-width: 768px){
+    #menufix{
+        background: #fff;
+        height: 70px;
+    }
+    .bann{
+        max-width: 100%;
+        padding: 30px;
+    }
+    .home1{
+        margin-right: -25px;
+    }
+    .bann::before{
+        display: block;
+        /* top: 60%; */
+        /* right: 30%; */
+        width: 85px;
+        height: 115px;
+    }
+    .bann::after{
+        display: block;
+    }
     .textt{
         padding-top: 65px;
         padding-bottom: 0;
     }
+    .textt h1, .textt h1 span{
+        font-size: 50px;
+    }
     .textt p{
-        font-size: 16px;
+        font-size: 18px;
         max-width: 500px;
+    }
+    .light{
+        margin-left: -10%;
     }
 }
 
 @media only screen and (min-width: 992px){
     .conn{
         max-width: 960px;
+    }
+    .bann{
+        max-width: 100%;
+        padding: 10px;
+    }
+    #menufix{
+        background: #fff;
+        height: 90px;
     }
     #responsive-navbar-nav{
         display: flex !important;
@@ -357,19 +419,43 @@
     }
     .bann::before{
         display: block;
-        /* top: 60%; */
-        right: 30%;
+        top: 100%;
+        right: 39%;
         width: 85px;
         height: 115px;
     }
     .bann::after{
         display: block;
     }
+    .textt{
+        height: 100%;
+        margin-left: -30%;
+    }
+    .textt h1, .textt h1 span{
+        font-size: 50px;
+    }
+    .textt p{
+        font-size: 18px;
+    }
+    .read{
+        font-size: 14px !important;
+    }
+    .play{
+        margin-left: 50px;
+    }
 }
 
 @media only screen and (min-width: 1200px){
     .conn{
         max-width: 1320px;
+    }
+    .bann{
+        max-width: 100%;
+        padding: 40px;
+    }
+    #menufix{
+        background: #fff;
+        height: 100px;
     }
     #responsive-navbar-nav{
         display: flex !important;
@@ -384,6 +470,27 @@
         margin: 0 35px;
     }
     .bann::before{
+        top: 126%;
         right: 10%;
+    }
+    .textt{
+        /* padding: 80px 0; */
+        height: 100%;
+        margin-left: -68%;
+        max-width: 700px;
+        /* height: 50%; */
+    }
+    .textt h1, .textt h1 span{
+        font-size: 65px;
+    }
+    .textt p{
+        font-size: 18px;
+        /* max-width: 80%; */
+    }
+    .read{
+        font-size: 14px !important;
+    }
+    .play{
+        margin-left: 50px;
     }
 }

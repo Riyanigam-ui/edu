@@ -1445,17 +1445,17 @@
         padding: 20px;
     }
     .sl1{
-        width: 1250px;
-    }
-    .paper{
         width: 1100px;
     }
+    .paper1{
+        width: 1082px;
+    }
     .testrow{
-        width: 850px;
+        width: 734px;
         padding-bottom: 20%;
     }
     .last{
-        width: 1200px;
+        width: 1120px;
     }
     .conti{
         padding: 0 20px;
@@ -1474,7 +1474,7 @@
         line-height: 25px;
         font-size: 25px;
     }
-    .book, .faq1, .car, .testi, .active, .conn3{
+    .book, .faq1, .car, .testi, .active, .conn3, .blogs{
         padding: 0 20px;
     }
     .testimonial{
@@ -1528,11 +1528,11 @@
     }
     .counterbox{
         bottom: 19%;
-        right: 60px;
+        right: 26%;
     }
     .conn2{
         padding: 0 20px;
-        margin-top: -100%;
+        margin-top: -75%;
     }
     .faq::after, .faq::before{
         display: none;
@@ -1587,6 +1587,34 @@
     }
 }
 
+@media only screen and (min-width: 411px){
+    .counterbox{
+        bottom: 19%;
+        right: 33%;
+    }
+    .events{
+        margin-top: 50%;
+    }
+    .testi{
+        padding: 30px 40px;
+    }
+    .testrow{
+        width: 767px;
+    }
+    .paper{
+        width: 1200px;
+    }
+    .paper1{
+        width: 1167px;
+    }
+    .last{
+        width: 1200px;
+    }
+    .sl1{
+        width: 1200px;
+    }
+}
+
  @media only screen and (min-width: 420px){
     .bluecontent1, .bluecontent2, .bluecontent3, .bluecontent4, .bluecontent5, .bluecontent6{
         max-width: 85%;
@@ -1594,11 +1622,11 @@
     .sl1{
         width: 1250px;
     }
-    .paper{
-        width: 1100px;
+    .paper, .paper1{
+        width: 1200px;
     }
     .testrow{
-        width: 850px;
+        width: 843px;
         padding-bottom: 20%;
     }
     .last{
@@ -1678,11 +1706,14 @@
     }
     .counterbox{
         bottom: 19%;
-        right: 60px;
+        right: 35%;
+    }
+    .busi{
+        margin-left: 2%;
     }
     .conn2{
         padding: 0 20px;
-        margin-top: -100%;
+        margin-top: -49%;
     }
     .faq::after, .faq::before{
         display: none;
@@ -1735,7 +1766,44 @@
     .videotxt p{
         max-width: 100%;
     }
+    .events{
+        margin-top: 15%;
+    }
 }
+
+@media only screen and (min-width: 432px){
+    .conti, .car{
+        max-width: 420px;
+    }
+    .paper1{
+        width: 1220px;
+    }
+    .testrow{
+        width: 852px;
+    }
+    .last{
+        width: 1275px;
+    }
+}
+
+@media only screen and (min-width:446px){
+    .accrows{
+        display: block;
+    }
+    .faqtext{
+        margin-top: 30px;
+    }
+    .testimonial{
+        margin-top: 9%;
+    }
+    .testrow{
+        width: 877px;
+    }
+    .last{
+        width: 1300px;
+    }
+}
+
  @media only screen and (min-width: 575px){
     .conti{
         padding: 0 20px;
@@ -1905,7 +1973,7 @@
     max-width: 540px;
 }
 .testrow{
-    width: 1239px;
+    width: 1147px;
     padding-bottom: 66px;
 }
 .abbtext{
@@ -2090,7 +2158,7 @@
 }
 
 @media only screen and (min-width: 992px){
-    .conti, .book, .conn2, .faq1, .car, .active, .testi,.conn3, .blogs{
+    .conti, .book, .conn2, .faq1, .car, .active, .testi, .conn3, .blogs{
         max-width: 960px;
     }
     .sl1, .last{
@@ -2098,13 +2166,17 @@
         /* height: 100%; */
     }
     .paper{
-        width: 2000px;
+        width: 1000px;
     }
     .testhead{
-        margin-left: 30px;
+        max-width: 60%;
+        margin-left: 21.5%;
     }
     .testrow{
-       width: 1480px;
+       width: 1000px;
+    }
+    .testimonial{
+        margin-left: -41px;
     }
     .divis{
         display: flex;
@@ -2116,14 +2188,13 @@
         display: flex;
     }
     .abtop{
-        width: 411px;
-        /* height: 300px; */
+        /* width: 411px; */
+        height: 247px;
         padding-bottom: 5px;
     }
     .abb{
         width: 100%;
         height: 100%;
-        /* margin-bottom: 30px; */
     }
     .toptext{
         margin-top: 11%;
@@ -2133,38 +2204,352 @@
     .read1{
         margin-left: 8px;
     }
-    .abbimage{
-        /* margin-top: 8%; */
-        width: 450px;
-        height: 550px;
-        margin-bottom: 20px;
+    .busi{
+        /* flex: 0 0 auto; */
+        width: 50%;
     }
-    .abbimage .abbb{
+    .rowss{
+        display: flex;
+        margin-left: 0;
+    }
+    .book::after, .school::before{
+        display: block;
+    }
+    .smile{
+        /* flex: 0 0 auto; */
+        width: 50%;
+        margin-left: 5%;
+    }
+    .abtt h2{
+        font-size: 34px;
+    }
+    .abbb{
+        height: 640px;
+        width: 480px;
+        padding-right: 30px;
+    }
+    .school::before{
+        bottom: 20px;
+        left: 33%;
+        width: 80px;
+        height: 95px;
+    }
+    .book::after{
+        top: 210px;
+    }
+    .abbimage::before{
+        bottom: 30%;
+    }
+    .abbimage::after{
+        top: -40px;
+        right: -36px;
+    }
+    .abbmore{
+        padding-top: 12%;
+        width: 190px;
+    }
+    .abmore{
+        width: 100%;
+        /* margin-top: 5%; */
+        font-size: 18px;
+    }
+    .counterbox{
+        right: 12%;
+        bottom: 11%;
+    }
+    .childd{
+        top: -95px;
+        padding: 11px;
+        margin-bottom: 30px;
+    }
+    .accrows{
+        display: flex;
+    }
+    .faq::before{
+        display: block;
+        right: 82%;
+        bottom: 10%;
+    }
+    .faqq, .faqq1{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .faqimage{
+        width: 450px;
+        height: 450px;
+        left: 0;
+    }
+    .faqimage .imgg{
         width: 100%;
         height: 100%;
     }
-    .counterbox{
-        right: 45%;
-        bottom: 1%;
+    .faqimage::after{
+        top: -55px;
     }
-    .abbimage::after, .abbimage::before{
-        display: block;
+    .acti{
+        flex: 0 0 auto;
+        width: 50%;
     }
-    .abbimage::after{
-        left: 80%;
-        top: -14px;
+    .actiicon p{
+        max-width: 100%;
     }
-    .abbimage::before{
-        bottom: 15%;
-        left: -34px;
+    .greenn h3, .bluee h3, .purple h3{
+        font-size: 16px;
     }
-    .abbtext{
-        margin-left: 2%;
+    .actimg{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .activimg .study{
+        width: 489px;
+        height: 656px; 
+        margin-left: 0;
     }
 }
 
 @media only screen and (min-width: 1200px){
-  
+    .active, .faq1, .car, .book, .conti, .conn2, .car, .testi, .course, .blogs, .conn3{
+        max-width: 1140px;
+    }
+    .car{
+        margin-left: 3.5%;
+    }
+    .sl1{
+        width: 1699px;
+    }
+    .paper1{
+        width: 1069px;
+    }
+    .testrow{
+        width: 1176px;
+    }
+    .study{
+        width: 100%;
+        height: 86%;
+    }
+    .actii h2, .noww h2, .videotxt h4{
+        font-size: 30px;
+    }
+    /* .faq::before{
+        bottom: -60px;
+        right: 9%;
+    } */
+    .abtop{
+        width: 405px;
+        margin-bottom: -6px;
+    }
+    .abcontent{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-right: 60px;
+    }
+    .childd{
+        margin-bottom: 50px;
+    }
+    .busi, .smile{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .abtt h2{
+        font-size: 37px;
+    }
+    .abbtext p{
+        max-width: 80%;
+        /* font-size: 18px; */
+    }
+    .abtt li{
+        font-size: 16px;
+    }
+    .abttt li::after{
+        margin-left: -1%;
+    }
+    .abmore{
+        width: 190px;
+    }
+    .abbimage{
+        height: 580px;
+    }
+    .abbimage .abbb{
+        width: 542px;
+        height: 525px;
+    }
+    .abbimage::before{
+        bottom: 25%;
+        left: -13%;
+    }
+    .school::before{
+        bottom: -37px;
+        left: 27%;
+    }
+    .book::after{
+        top: 244px;
+    }
+    .abbimage::after{
+        top: -3%;
+        left: 92%;
+    }
+    .counterbox{
+        bottom: 10%;
+        right: 8%;
+    }
+    .toptext{
+        margin-left: -28%;
+    }
+    .read1{
+        margin-left: 30px;
+        width: 64%;
+        font-size: 20px;
+    }
+    .divis{
+        display: block;
+    }
+    .blue{
+        width: 350px;
+    }
+    .rows{
+        margin-left: -31px;
+    }
+    .rowss{
+        margin-left: -25px;
+    }
+    .faq::after{
+        display: block;
+        top: -57px;
+    }
+    .faq::before{
+        right: 80%;
+        bottom: 40px !important;
+    }
+    .faqq, .faqq1{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .faqimage{
+        width: 590px;
+        height: 590px;
+        left: -50px;
+    }
+    .faqimage::after{
+        left: 11%;
+    }
+    .activimg{
+        width: auto;
+        height: 100%;
+    }
+    .study{
+        width: 100%;
+    }
+    .last{
+        width: 1733px;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .active, .faq1, .car, .book, .conti, .conn2, .car, .testi, .blogs, .conn3{
+        max-width: 1320px;
+    }
+    .sl1{
+        width: 1300px;
+    }
+    .paper1{
+        width: 1300px;
+        margin-left: 3%;
+    }
+    .testrow{
+        width: 1366px;
+    }
+    .last{
+        width: 1300px;
+    }
+    .blue{
+        width: 420px;
+    }
+    .aboutsec{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .aboutsec1{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .toptext{
+        margin-left: -24%;
+    }
+    .read1{
+        text-align: center;
+        margin-left: 10%;
+        font-size: 17px !important;    
+        padding: 15px;
+    }
+    .abbmore{
+        padding-top: 0;
+    }
+    .school::before{
+        bottom: -46px;
+        left: 8%;
+    }
+    .abbimage{
+        height: 670px;
+    }
+    .abbimage .abbb{
+        width: 619px;
+    }
+    .counterbox{
+        bottom: 17%;
+    }
+    .abbimage::before{
+        left: -11%;
+        bottom: 29%;
+    }
+    .abbimage::after{
+        left: 109%;
+    }
+    .book::after{
+        top: 300px;
+        left: 5%;
+    }
+    .faq::after{
+        /* display: block; */
+        top: -20px;
+    }
+    .faq::before{
+        right: 5%;
+        bottom: -67px !important;
+    }
+    .faqq, .faqq1{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .faqimage{
+        width: 650px;
+        height: 650px;
+        left: -50px;
+    }
+    .faqimage::after{
+        left: 10%;
+        top: -1%;
+    }
+    .acti, .actimg{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .actii h2{
+        font-size: 37px;
+    }
+    .actiicon p{
+        max-width: 80%;
+    }
+    .greenn h3, .purple h3, .bluee h3{
+        font-size: 22px;
+    }
+    .activimg{
+        margin-left: 45px;
+    }
+    .activimg .study{
+        width: 815px;
+        height: 666px;
+    }
 }
 
 

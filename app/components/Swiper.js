@@ -47,8 +47,8 @@ export default function Sliding() {
                         </div>
                         <div className={styles.eventtxt}>
                             <ul>
-                                <li><a href='#'><FiMapPin className={styles.pin} />Paris, France</a></li>
-                                <li><a href='#'><FaRegClock className={styles.pin} />06.00pm - 09.00pm</a></li>
+                                <li><a href='#'><FiMapPin className={styles.pin1} />Paris, France</a></li>
+                                <li><a href='#'><FaRegClock className={styles.pin1} />06.00pm - 09.00pm</a></li>
                             </ul>
                             <a href='#' className={styles.gour}>Gourmet Music Concert</a>
                             <p>Calling all food lovers! Join us for a culinary adventure at the Paris Gourmet Food Festival. Sample a diverse range of gourmet dishes from around the world and satisfy your taste buds!</p>
@@ -67,8 +67,8 @@ export default function Sliding() {
                 </div>
                 <div className={styles.eventtxt}>
                             <ul>
-                                <li><a href='#'><FiMapPin className={styles.pin} />Nashville, USA</a></li>
-                                <li><a href='#'><FaRegClock className={styles.pin} />08.00pm - 11.00pm</a></li>
+                                <li><a href='#'><FiMapPin className={styles.pin2} />Nashville, USA</a></li>
+                                <li><a href='#'><FaRegClock className={styles.pin2} />08.00pm - 11.00pm</a></li>
                             </ul>
                             <a href='#' className={styles.gour}>Country Music Festival</a>
                             <p>Get ready for a boot-stompin' good time at the Country Music Festival in Nashville. Experience live performances of your favorite country hits and enjoy the vibrant atmosphere.</p>
@@ -107,8 +107,8 @@ export default function Sliding() {
                 </div>
                 <div className={styles.eventtxt}>
                     <ul>
-                        <li><a href='#'><FiMapPin className={styles.pin} />Dhaka, Bangladesh</a></li>
-                        <li><a href='#'><FaRegClock className={styles.pin} />08.00pm - 10.00pm</a></li>
+                        <li><a href='#'><FiMapPin className={styles.pin3} />Dhaka, Bangladesh</a></li>
+                        <li><a href='#'><FaRegClock className={styles.pin3} />08.00pm - 10.00pm</a></li>
                     </ul>
                     <a href='#' className={styles.gour}>Outdoor This Games</a>
                     <p>Join us for a day of exciting outdoor activities and games in the beautiful Dhaka, Bangladesh. Whether you're a student or just looking for some outdoor fun, this event is perfect for you.</p>

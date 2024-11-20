@@ -143,6 +143,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 50px;
     /* padding-top: 65px; */
 }
 
@@ -214,8 +215,12 @@
     position: relative;
     z-index: 2;
     cursor: pointer;
-    padding: 13px 17px;
+    padding: 15px 20px;
+}
 
+.playy{
+    width: 18px;
+    /* height: 51px; */
 }
 
 .play::before{
@@ -226,17 +231,20 @@
     left: 0;
     z-index: -1;
     /* animation: play_ani 1.5s linear infinite; */
-    -webkit-animation: play_ani 1.5s linear infinite;
+    -webkit-animation: play_animate 1.5s linear infinite;
+    /* transition: all .3s linear; */
     -webkit-transition: all .3s linear;
 }
 
-@keyframes play_ani{
+@keyframes play_animate{
     0%{
         opacity: 1;
+        transform: scale(.9);
         -webkit-transform: scale(.9);
     }
     100%{
         opacity: 0;
+        transform: scale(1.7);
         -webkit-transform: scale(1.7);
     }
 }
@@ -270,7 +278,8 @@
         font-size: 30px;
     }
     .textt p{
-        font-size: 15px;
+        font-size: 16px;
+        max-width: 74%;
     }
 }
 
@@ -307,7 +316,7 @@
     }
     .textt p{
         font-size: 16px;
-        max-width: 95%;
+        max-width: 74%;
     }
 }
 
@@ -429,13 +438,14 @@
     }
     .textt{
         height: 100%;
-        margin-left: -30%;
+        /* margin-left: -30%; */
     }
     .textt h1, .textt h1 span{
         font-size: 50px;
     }
     .textt p{
         font-size: 18px;
+        max-width: 50%;
     }
     .read{
         font-size: 14px !important;
@@ -447,11 +457,19 @@
 
 @media only screen and (min-width: 1200px){
     .conn{
-        max-width: 1320px;
+        max-width: 1120px;
+    }
+    .light{
+        /* width: 135px; */
+        height: 52px;
+        margin-left: -14px;
+    }
+    .container{
+        max-width: 1140px;
     }
     .bann{
-        max-width: 100%;
-        padding: 40px;
+        height: 100%;
+        /* padding: 40px; */
     }
     #menufix{
         background: #fff;
@@ -464,33 +482,56 @@
     #nav{
         font-size: 22px;
         font-weight: 600;
-        margin-left: 2%;
+    }
+    #navs{
+        margin-left: -6px;
+        padding: 15px;
     }
     .home1{
         margin: 0 35px;
+        /* margin-left: -4%; */
     }
     .bann::before{
-        top: 126%;
-        right: 10%;
-    }
-    .textt{
-        /* padding: 80px 0; */
-        height: 100%;
-        margin-left: -68%;
-        max-width: 700px;
-        /* height: 50%; */
-    }
-    .textt h1, .textt h1 span{
-        font-size: 65px;
-    }
-    .textt p{
-        font-size: 18px;
-        /* max-width: 80%; */
+        right: 6%;
+        width: 80px;
+        height: 110px;
+        top: 92%;
     }
     .read{
         font-size: 14px !important;
     }
     .play{
         margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width:1400px){
+    .conn, .container{
+        max-width: 1320px;
+    }
+    #nav{
+        margin-left: 13%;
+    }
+    .textt h1, .textt h1 span{
+        font-size: 65px;
+    }
+    .textt p{
+        max-width: 43%;
+        font-size: 18px;
+    }
+    .bann{
+        /* height: 100%; */
+        width: 100%;
+    }
+    .bann::before{
+        width: 80px;
+        height: 110px;
+        top: 29%;
+        right: 8%;
+    }
+    .bann::after{
+        width: 150px;
+        height: 100px;
+        top: 30%;
     }
 }

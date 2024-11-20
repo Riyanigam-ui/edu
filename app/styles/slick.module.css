@@ -45,7 +45,7 @@
     -webkit-transform: translateX(-50%);
 }
 
-.sigletest p{
+.singletest p{
     margin-top: 30px;
     font-size: 16px;
     transition: all .3s linear;
@@ -82,8 +82,26 @@
     color: #fff;
 }
 
+@media only screen and (min-width:360px){
+    .singletest{
+        padding: 60px 20px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .singletest{
+        padding: 40px 30px;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .singletest p{
         padding-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .singletest{
+        width: 100%;
     }
 }

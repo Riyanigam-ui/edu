@@ -19,7 +19,7 @@ export default function Footer() {
             <Container className={styles.fott}>
              <div className={styles.rows}>
              <Row className={styles.foot1}>
-                  <Col >
+                  <Col className={styles.coll}>
                     <div className={styles.lone}>
                       <Image src={logotwo} alt="Eduor" className={styles.dark} />
                       <p>Nemo enim ipsam voluptate quia voluptas sit aspernatur aut odit aut fugit, sed quia magni this dolores eos qui ratione .</p>
@@ -32,7 +32,7 @@ export default function Footer() {
                     </ul>
                     </div>
                   </Col>
-                 <Col className={styles.links}>
+                  <Col className={styles.links}>
                     <h3>Quick Links</h3>
                     <ul>
                        <li><a href='#'>- Best Services</a></li><br/>
@@ -46,7 +46,7 @@ export default function Footer() {
                  <Row className={styles.foot2}>
                  <Col className={styles.contacts}>
                  <h3>Our Contacts</h3>
-                        <p>27 Division St, Berakuti, NY 121102, USA</p>
+                        <p className={styles.pp}>27 Division St, Berakuti, NY 121102, USA</p>
                         <p>
                             <span>
                                 Phone: <a href="tel: +8 1440 456 782">

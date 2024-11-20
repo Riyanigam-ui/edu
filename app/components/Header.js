@@ -22,12 +22,12 @@ export default function Header() {
             <NavbarToggle aria-controls="responsive-navbar-nav"/>
               <NavbarCollapse id='responsive-navbar-nav'>
                 <Nav className="me-auto" id={styles.nav}>
-                  <NavLink href='#' className={styles.home1}>Home</NavLink>
-                  <NavLink href='#' className={styles.home1}>About Us</NavLink>
-                  <NavLink href='#' className={styles.home1}>Courses</NavLink>
-                  <NavLink href='#' className={styles.home1}>Blogs</NavLink>
-                  <NavLink href='#' className={styles.home1}>Pages</NavLink>
-                  <NavLink href='#' className={styles.home1}>Contact</NavLink>
+                  <NavLink href='#' className={styles.home1} id={styles.navs}>Home</NavLink>
+                  <NavLink href='#' className={styles.home1} id={styles.navs}>About Us</NavLink>
+                  <NavLink href='#' className={styles.home1} id={styles.navs}>Courses</NavLink>
+                  <NavLink href='#' className={styles.home1} id={styles.navs}>Blogs</NavLink>
+                  <NavLink href='#' className={styles.home1} id={styles.navs}>Pages</NavLink>
+                  <NavLink href='#' className={styles.home1} id={styles.navs}>Contact</NavLink>
                 </Nav>
                 <Form className={styles.learnmore}>
                   <Button className={styles.learn}>Learn More</Button>
@@ -45,7 +45,7 @@ export default function Header() {
                  <p>Eduor is more than just a platform; it's a nurturing space where education transforms into an exciting adventure. With a passion for igniting curiosity and inspiring young minds.</p>
                  <ul>
                   <li><a href='#' className={styles.read}>READ MORE</a></li>
-                  <li><a href='#' className={styles.play}><FaPlay /></a></li>
+                  <li><a href='#' className={styles.play}><FaPlay className={styles.playy} /></a></li>
                  </ul>
                </Col>
              </Row>

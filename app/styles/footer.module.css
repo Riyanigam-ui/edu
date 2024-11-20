@@ -259,13 +259,31 @@
     .links{
         margin-top: 10%;
     }
-    .copy ul li a{
-        margin-left: 0;
-        margin-right: 20px;
+    .copy ul{
+        /* margin-left: -30px; */
+        margin-left: -43px;
+        margin-bottom: 0;
     }
     .scrollbtn{
         right: -20px;
         font-size: 13px;
+    }
+    .links ul{
+        margin-left: -9%;
+    }
+    .news, .contacts, .links{
+        margin-top: 9%;
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (min-width: 420px){
+    .copy ul{
+        margin-left: -7%;
+        margin-top: 0;
+    }
+    .copy p{
+        margin-left: 5%;
     }
 }
 
@@ -279,29 +297,75 @@
     .fott{
         max-width: 960px;
     }
-    .foot1{
+   .rows .foot1, .rows .foot2{
         display: flex;
+    }
+    .links{
+        margin-top: 20px;
+    }
+    .links li{
+        margin-left: -9%;
     }
     .link1 p{
        max-width: 100%;
        font-size: 14px;
     }
-    .links h3, .news h3{
-        margin-left: 30px;
-    }
-    .news p{
-        margin-left: 30px;
+    .news{
+        margin-top: 17%;
+        margin-left: 28px;
     }
     .form{
-        margin-left: 30px;
+        margin-left: -8px;
+    }
+    .rows{
+        gap: 8em;
+    }
+    .contacts{
+        margin-top: 31%;
     }
 }
 
 @media only screen and (min-width: 1200px){
     .fott{
+        max-width: 1140px;
+    }
+    .rows .foot1{
+        display: flex;
+    }
+    .rows .foot2{
+        display: flex;
+    }
+    .lone p{
+        font-size: 14px;
+    }
+    .lone ul{
+        width: 300px;
+    }
+    .links, .contacts, .news{
+        margin-top: 2%;
+    }
+    .links ul{
+        margin-left: -5%;
+    }
+    .links ul{
+        padding-top: 15%;
+    }
+    .contacts{
+        margin-left: -18%;
+    }
+    .contacts .pp, .footercontent p{
+     padding-top: 12%;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .fott{
         max-width: 1320px;
     }
-    .rows{
-        display: flex;
+    .links{
+        margin-left: 8%;
+    }
+    .copy p{
+        margin-left: 1%;
     }
 }

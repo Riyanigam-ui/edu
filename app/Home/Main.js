@@ -119,12 +119,12 @@ export default function Main() {
             <Container className={styles.book}>
               <div className={styles.childd}>
               <Row className={styles.sch}>
-                <Col className={styles.schh}>
+                <Col className={styles.aboutsec}>
                   <div className={styles.abtop}>
                      <Image src={top} alt="about-top" className={styles.abb} />
                   </div>
                 </Col>
-                <Col className={styles.schh1}>
+                <Col className={styles.aboutsec1}>
                   <div className={styles.abcontent}>
                     <div className={styles.toptext}>
                     <h4>Study Off Flexibility</h4>
@@ -135,7 +135,8 @@ export default function Main() {
                 </Col>
               </Row>
               </div>
-              <Row className={styles.scrow}>
+              <Row className={styles.scrow1}>
+                 <div className={styles.rowss}>
                  <Col className={styles.busi}>
                    <div className={styles.abbtext}>
                      <div className={styles.abtt}>
@@ -165,6 +166,7 @@ export default function Main() {
                       <p>Complete Projects</p>
                    </div>
                  </Col>
+                 </div>
               </Row>
             </Container>
         </section>
